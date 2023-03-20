@@ -5,8 +5,6 @@
 */
 img, object, embed, video {
 	max-width: 100%;
-	text-align: center;
-	vertical-align: middle;
 }
 
 /* IE 6 does not support max-width so default to width 100% */
@@ -55,15 +53,19 @@ img, object, embed, video {
 	clear: none;
 	float: none;
 }
+
 #logo {
-	padding-right: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
+width:300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
 }
+
 .zeroMargin_mobile {
     margin-left: 0;
 }
+
 .hide_mobile {
     display: none;
 }
@@ -80,15 +82,21 @@ img, object, embed, video {
 	float: none;
 	margin-left: auto;
 }
-#logo {
-	text-align: center;
 
-}
 .zeroMargin_tablet {
     margin-left: 0;
 }
+	
 .hide_tablet {
     display: none;
+}
+	
+#logo {
+width:300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding:10px;	
 }
 }
 
@@ -106,17 +114,20 @@ img, object, embed, video {
 	float: none;
 	margin-left: auto;
 }
-#logo {
-	text-align: center;
-	vertical-align: baseline;
-	padding-bottom: 17px;
-	padding-top: 17px;
-}
+
 .zeroMargin_desktop {
     margin-left: 0;
 }
+	
 .hide_desktop {
     display: none;
 }
-}.reich {
+
+#logo {
+width:300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
+}
 }
